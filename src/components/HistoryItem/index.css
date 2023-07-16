@@ -1,0 +1,41 @@
+.history-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+}
+
+.domain {
+  height: 30px;
+  width: 40px;
+  margin: 10px;
+  margin-left: 30px;
+  align-self: flex-start;
+}
+.title-url {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width: 576px) {
+  .title-url {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.title {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 600;
+}
+.delete {
+  background-color: transparent;
+  border-width: 0px;
+  margin-top: 20px;
+}
+.url {
+  color: #64748b;
+}

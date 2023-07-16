@@ -1,0 +1,43 @@
+.bg-container {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+.header-container {
+  background-color: #3367d6;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.app-logo {
+  height: 30px;
+  width: 120px;
+  padding-left: 20px;
+}
+.input-container {
+  height: 30px;
+  display: flex;
+  background-color: #2850a7;
+  margin-left: 250px;
+}
+.input {
+  background-color: #2850a7;
+  color: white;
+  border-width: 0px;
+  width: 280px;
+  border-left-width: 1px;
+  border-left-color: #6697ff;
+}
+.app-container {
+  margin: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 90vh;
+}
+.empty-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
